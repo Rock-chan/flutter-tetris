@@ -14,6 +14,7 @@ import 'package:tetris_tesouro/http/request.dart';
 import 'package:tetris_tesouro/material/audios.dart';
 import 'package:tetris_tesouro/page/privacy_page.dart';
 import 'package:tetris_tesouro/panel/page_portrait.dart';
+import 'package:tetris_tesouro/routes/app_pages.dart';
 import 'package:tetris_tesouro/service/PushNotificationForIosService.dart';
 
 import 'gamer/keyboard.dart';
@@ -104,6 +105,7 @@ class _MainAppState extends State<MainApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      getPages: AppPages.getPages(),
       home: widget.isPrivacy
           ? PrivacyPage(privacyLink: widget.privacyUrl)
           : Scaffold(
