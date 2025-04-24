@@ -1,0 +1,79 @@
+PODS:
+  - Adjust (5.1.1):
+    - Adjust/Adjust (= 5.1.1)
+  - Adjust/Adjust (5.1.1):
+    - AdjustSignature (= 3.35.2)
+  - AdjustSignature (3.35.2)
+  - facebook_app_events (0.0.1):
+    - FBAudienceNetwork (= 6.16)
+    - FBSDKCoreKit (~> 17.0)
+    - Flutter
+  - FBAEMKit (17.4.0):
+    - FBSDKCoreKit_Basics (= 17.4.0)
+  - FBAudienceNetwork (6.16.0)
+  - FBSDKCoreKit (17.4.0):
+    - FBAEMKit (= 17.4.0)
+    - FBSDKCoreKit_Basics (= 17.4.0)
+  - FBSDKCoreKit_Basics (17.4.0)
+  - Flutter (1.0.0)
+  - JCore (5.0.1)
+  - JPush (5.6.0):
+    - JCore (>= 4.8.0)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JCore (>= 4.8.0)
+    - JPush (= 5.6.0)
+  - soundpool (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Adjust (~> 5.1.1)
+  - facebook_app_events (from `.symlinks/plugins/facebook_app_events/ios`)
+  - Flutter (from `Flutter`)
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+  - soundpool (from `.symlinks/plugins/soundpool/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - FBAEMKit
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - JCore
+    - JPush
+
+EXTERNAL SOURCES:
+  facebook_app_events:
+    :path: ".symlinks/plugins/facebook_app_events/ios"
+  Flutter:
+    :path: Flutter
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
+  soundpool:
+    :path: ".symlinks/plugins/soundpool/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Adjust: 5f5e998cf1446d44d93f91ec8b7b7dd40eaa922d
+  AdjustSignature: 23b9e5d4adcadffc303bb6b410fde617dd88504f
+  facebook_app_events: d791f99d78f74cde976edd378678566cb7bb4ab0
+  FBAEMKit: 58cb5f302cdd715a56d4c1d0dfdd2e423ac1421a
+  FBAudienceNetwork: d1670939884e3a2e0ad98dca98d7e0c841417228
+  FBSDKCoreKit: 94d7461d0cecf441b1ba7c41acfff41daa8ccd41
+  FBSDKCoreKit_Basics: 151b43db8b834d3f0e02f95d36a44ffd36265e45
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  JCore: 1c42bfa3905a0edb7edacf7e776b4bee0698bacf
+  JPush: 6a2895fd4045b8f342e31c14afa7685fb2efe596
+  jpush_flutter: 17ffd5498fda2dfee380068dc8f08ec0421a1d84
+  soundpool: c7f4422ca206e77f8900ed3c4ee6a6ff5a0e38a9
+  webview_flutter_wkwebview: 2a23822e9039b7b1bc52e5add778e5d89ad488d1
+
+PODFILE CHECKSUM: d3cf34be97087ff3b3db1eee1cf2e0e2352b5893
+
+COCOAPODS: 1.15.2

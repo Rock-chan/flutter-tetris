@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:tetris/gamer/gamer.dart';
-import 'package:tetris/generated/l10n.dart';
+import 'package:tetris_tesouro/gamer/gamer.dart';
+import 'package:tetris_tesouro/generated/l10n.dart';
 
 class GameController extends StatelessWidget {
   const GameController({super.key});

@@ -1,10 +1,10 @@
-name: tetris
+name: tetris_tesouro
 description: A new Flutter project.
 publish_to: "none"
 version: 2.0.0+1
 
 environment:
-  sdk: ">=3.5.0 <4.0.0"
+  sdk: ">=3.4.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -14,6 +14,16 @@ dependencies:
   overlay_support: ^2.1.0
   soundpool: ^2.4.1
   vector_math: ^2.1.4
+
+  dio: ^5.8.0+1
+
+  jpush_flutter: ^3.0.0
+
+  webview_flutter: 4.7.0
+
+  get: ^4.7.2
+
+  facebook_app_events: ^0.19.4
 
 dev_dependencies:
   flutter_test:

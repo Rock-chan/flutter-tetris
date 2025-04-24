@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:tetris/gamer/block.dart';
-import 'package:tetris/gamer/gamer.dart';
-import 'package:tetris/generated/l10n.dart';
-import 'package:tetris/material/briks.dart';
-import 'package:tetris/material/images.dart';
+import 'package:tetris_tesouro/gamer/block.dart';
+import 'package:tetris_tesouro/gamer/gamer.dart';
+import 'package:tetris_tesouro/generated/l10n.dart';
+import 'package:tetris_tesouro/material/briks.dart';
+import 'package:tetris_tesouro/material/images.dart';
 
 class StatusPanel extends StatelessWidget {
   const StatusPanel({super.key});
